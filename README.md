@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-ssa-us-births-2000-2014@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-ssa-us-births-2000-2014/tags). For example,
+
+```javascript
 import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-ssa-us-births-2000-2014@v0.2.2-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ Each element in the returned database has the following fields:
 
 ```javascript
 import incrmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mean@deno/mod.js';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-ssa-us-births-2000-2014@v0.2.2-deno/mod.js';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-ssa-us-births-2000-2014@deno/mod.js';
 
 function mean( a, b ) {
     return ( a + b ) / 2.0;
