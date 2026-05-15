@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-03)
+## Unreleased (2026-05-15)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#12137](https://github.com/stdlib-js/stdlib/issues/12137)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`0205e0a`](https://github.com/stdlib-js/stdlib/commit/0205e0ada304cf3e79b87d9e3e7180c1dba3f8e5) - **chore:** fix JavaScript lint errors [(#12138)](https://github.com/stdlib-js/stdlib/pull/12138) _(by lmlm, Athan Reines)_
 -   [`a297305`](https://github.com/stdlib-js/stdlib/commit/a2973058c05b9d01c7045190a06568d4fefdf5c5) - **bench:** refactor to use string interpolation in `datasets` [(#11618)](https://github.com/stdlib-js/stdlib/pull/11618) _(by Karan Anand)_
 -   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
 
@@ -25,10 +38,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
+-   lmlm
 
 </section>
 
